@@ -1,0 +1,489 @@
+body {
+    font-family: Vazirmatn;
+    direction: rtl;
+    font-size: 12px;
+
+}
+nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.navdiv {
+    display: flex;
+    background-color: rgba(222, 201, 241, 0.652);
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+nav img {
+    padding: 15px;
+}
+
+nav div {
+    padding: 10px 15px;
+    margin: 15px;
+}
+
+section div {
+    background-image: url(images/1650529294720k7ehi9gqjp2vvuiq1t9aff691d.jpg);
+    background-repeat: no-repeat;
+    padding: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    background-color: rgb(78, 0, 121);
+    border-bottom: 8px solid red;
+}
+
+
+article {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+}
+
+.right {
+
+    margin-top: 30px;
+    background-color: rgba(113, 38, 183, 0);
+}
+
+#flexButton {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+#button {
+    background-color: red;
+    float: left;
+    color: white;
+    margin-left: 15px;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+#button a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 10px;
+
+}
+
+.button {
+    margin-top: 40px;
+    background-color: white;
+
+}
+
+button {
+    width: 170px;
+    height: 150px;
+    margin: 3px;
+    background-color: rgb(228, 228, 228);
+    border: none;
+    border-radius: 3%;
+
+}
+
+button a {
+    text-decoration: none;
+    padding: 50px;
+    height: 20px;
+}
+
+.di {
+    background-color: rgb(78, 19, 120);
+    color: aliceblue;
+    padding: 35px 5px;
+    border-radius: 6px;
+}
+
+.di div,
+h2 {
+    margin-top: 0.5px;
+    margin-right: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    background-color: rgba(255, 235, 205, 0);
+    margin-right: 50px;
+}
+
+.left div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left div div {
+    text-align: right;
+    border-bottom: 1px solid rgb(188, 188, 188);
+    padding: 20px 60px;
+    background-color: rgba(0, 255, 255, 0);
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+
+
+aside {
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 30px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(247, 247, 247);
+}
+
+.اخبار {
+    color: rgb(255, 0, 0);
+    font-size: medium;
+    font-weight: bold;
+    margin: 25px;
+}
+
+.متن {
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid rgb(202, 202, 202);
+    border-bottom: 2px solid rgb(202, 202, 202);
+}
+
+.calumn {
+    margin: 20px;
+    text-align: start;
+    margin-left: 95px;
+    border-left: 2px solid rgb(202, 202, 202);
+
+}
+
+h3 {
+    color: rgb(49, 6, 140);
+}
+
+.متن div {
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.leftghabar {
+    padding: 15px;
+    margin-top: -1px;
+}
+
+.leftghabar div {
+    margin-left: 50px;
+}
+
+.picture {
+    display: flex;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+.picture img {
+    margin: 5px;
+}
+
+.picture div {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.underh4,
+h4 {
+    margin-right: 20px;
+}
+
+
+
+
+.گرومالی {
+    text-align: center;
+    padding: 50px;
+    margin: 5px;
+
+}
+
+.part3 {
+    display: flex;
+    justify-content: center;
+}
+
+.part3 a {
+    text-decoration: none;
+}
+
+.part3 div {
+    margin: 20px;
+}
+
+.ستونی {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+}
+
+.top {
+    text-align: right;
+    padding: 20px;
+    border-left: 2px solid rgb(216, 216, 216);
+}
+
+.leftchin {
+    display: flex;
+}
+
+.bordertop {
+    padding-top: 30px;
+    border-top: 2px solid rgb(213, 213, 213);
+}
+
+.button2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.button2 a {
+    background-color: rgb(94, 28, 156);
+    color: aliceblue;
+    padding: 15px;
+}
+
+.button2 a:hover {
+    background-color: red;
+}
+
+.icons {
+    padding-top: 50px;
+    margin: 50px;
+    text-align: center;
+}
+
+.icons a {
+    margin: 3px;
+}
+
+
+
+
+
+
+
+
+footer {
+    font-size: 11px;
+    background-color: rgb(219, 219, 219);
+}
+
+.footerTop {
+    display: flex;
+    padding: 2%;
+    margin-right: 8%;
+    color: rgb(129, 129, 129);
+}
+
+#header {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#rightfooter {
+    flex: 35%;
+}
+
+#middelfooter {
+    flex: 35%;
+}
+
+#leftfooter {
+    flex: 40%;
+}
+
+#rightfooter div {
+    margin: 5px;
+    padding: 5px;
+}
+
+#middelfooter div {
+    margin: 15px;
+    padding: 1px;
+}
+
+#leftfooter li {
+    padding: 5px;
+}
+
+#leftfooter a {
+    color: rgb(129, 129, 129);
+    text-decoration: none;
+}
+
+.footerBottom {
+    background-color: rgb(66, 16, 81);
+    color: aliceblue;
+    padding: 10px;
+}
+
+#leftfooter a:hover {
+    color: rgb(71, 15, 123);
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        background-color: rgba(222, 201, 241, 0.652);
+        ;
+    }
+
+    .navdiv {
+        background-color: rgba(240, 248, 255, 0);
+    }
+
+    nav div {
+        display: none;
+    }
+
+    section div {
+        height: 150px;
+        padding: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button {
+        display: flex;
+        flex-direction: column;
+    }
+
+    Button {
+        width: auto;
+        height: 100px;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .left div {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .calumn,
+    #عکس {
+        display: none;
+    }
+
+    aside {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .picture {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .part3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftchin {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    nav {
+        background-color: rgba(222, 201, 241, 0.652);
+        ;
+    }
+
+    .navdiv {
+        background-color: rgba(240, 248, 255, 0);
+    }
+
+    nav div {
+        flex-shrink: 5px;
+    }
+
+    section div {
+        height: 80px;
+        padding: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button {
+        display: flex;
+        flex-direction: column;
+    }
+
+    Button {
+        width: auto;
+        height: 100px;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .left div {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .calumn,
+    #عکس {
+        display: none;
+    }
+
+    aside {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .picture {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .part3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftchin {
+        display: flex;
+        justify-content: center;
+    }
+
+}
